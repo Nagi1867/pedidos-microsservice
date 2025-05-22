@@ -1,10 +1,10 @@
-package com.example.pedidos.notificacao;
+package com.example.notificacao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NotificacaoServiceApplicationTests {
+class NotificacaoApplicationTests {
 
 	@Test
 	void contextLoads() {
