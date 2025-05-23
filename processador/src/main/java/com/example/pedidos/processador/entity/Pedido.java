@@ -108,4 +108,17 @@ public class Pedido {
     public int hashCode() {
         return Objects.hash(id, cliente, itemPedidos, valor, email, status, dataHora);
     }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", cliente='" + cliente + '\'' +
+                ", itemPedidos=" + itemPedidos +
+                ", valor=" + valor +
+                ", email='" + email + '\'' +
+                ", status=" + status +
+                ", dataHora=" + dataHora +
+                '}';
+    }
 }
