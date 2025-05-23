@@ -12,8 +12,7 @@ import java.util.List;
 
 @Service
 public class PedidoService {
-    @Autowired
-    private Logger logger = LoggerFactory.getLogger(PedidoService.class);
+    private static final Logger logger = LoggerFactory.getLogger(PedidoService.class);
     @Autowired
     private PedidoRepository pedidoRepository;
     @Autowired
