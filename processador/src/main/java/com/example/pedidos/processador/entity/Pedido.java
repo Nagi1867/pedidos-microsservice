@@ -16,7 +16,7 @@ public class Pedido {
     @Id
     private UUID id = UUID.randomUUID();
     private String cliente;
-    @OneToMany(mappedBy = "item_pedido")
+    @OneToMany(mappedBy = "pedido")
     private List<ItemPedido> itemPedidos = new ArrayList<>();
     @Column(name = "valor_total")
     private Double valor;
